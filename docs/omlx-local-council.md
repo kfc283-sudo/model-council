@@ -147,6 +147,12 @@ server locally instead, leave the settings address empty and open
 `http://127.0.0.1:8765`; the UI then uses the local proxy and keeps the API key on the
 machine running that proxy.
 
+The public source and GitHub Pages artifact intentionally do not contain a server
+address or API key from a private environment file. The **oMLX** settings remain visible
+and editable so each user can enter their own connection. Never solve convenience by
+committing a real API key: a browser-delivered key is inspectable even when the input is
+masked.
+
 ## User manual
 
 ### Stage 1 — independent seats
